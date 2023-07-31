@@ -82,7 +82,7 @@ return true;
 								<button type="submit" value="submit" name="submit" class="btn btn-primary">Register</button><span style="padding-left:250px">
 								<a href="index.php" class="btn btn-primary">Login</a></span>
 							</div>
-							 </fieldset>
+						</fieldset>
 					</form>
 				</div>
 			</div>

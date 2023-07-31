@@ -89,7 +89,7 @@ $sum_yesterday_expense=$result1['yesterdayexpense'];
 					<div class="panel-body easypiechart-panel">
 						<h4>Yesterday's Expense</h4>
 						<div class="easypiechart" id="easypiechart-orange" data-percent="<?php echo $sum_yesterday_expense;?>" ><span class="percent"><?php if($sum_yesterday_expense==""){
-echo "0";
+						echo "0";
 } else {
 echo $sum_yesterday_expense;
 }

@@ -82,7 +82,7 @@ while ($row=mysqli_fetch_array($ret)) {
 								</div>
 								<div class="form-group">
 									<label>Email</label>
-<input type="email" class="form-control" name="email" value="<?php  echo $row['Email'];?>" required="true" readonly="true">
+								</div><input type="email" class="form-control" name="email" value="<?php  echo $row['Email'];?>" required="true" readonly="true">
 								</div>
 								
 								<div class="form-group">
